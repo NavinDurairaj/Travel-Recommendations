@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="linearGrad">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="plane.png" alt="TravelBloom Logo" class="planeLogo">
+                    <span class="logoText">TravelBloom</span>
+                </div>
+                <div class="navlinks">
+                    <ul class="navlinksUl">
+                        <li class="navlinksUlLi">
+                            <a class="navlinksUlLiA" href="index.html">Home</a>
+                        </li>
+                        <li class="navlinksUlLi">
+                            <a class="navlinksUlLiA" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="navlinksUlLi">
+                            <a class="navlinksUlLiA" href="contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Enter a destination or keyword" class="searchbar" id="searchInput">
+                    <img src="search-interface-symbol.png" alt="Search Logo" class="searchLogo" onclick="handleSearch()">
+                    <button type="submit" class="btn" onclick="handleSearch()">Search</button>
+                    <button type="reset" class="btn" onclick="clearResults()">Clear</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-img">
+            <div class="home-page">
+                <div class="content-wid">
+                    <h1 class="h1-txt">explore dream destination</h1>
+
+                    <p class="p-txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+                    <div class="bookBtn-div">
+                        <button class="btn-book">book now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="searchResults"></div>
+        </div>
+    </div>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
