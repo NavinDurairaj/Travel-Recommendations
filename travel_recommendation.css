@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.planeLogo {
+    width: 50px;
+    height: auto;
+    padding: 0 12px 0 0;
+}
+
+.logoText {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    font-family: serif;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlinksUl {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinksUlLi {
+    padding: 0 10px 0 10px;
+    color: #fff;
+}
+
+.navlinksUlLiA {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search {
+    border: 1px solid;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #fff;
+    height: 40px;
+    padding: 4px 0px 4px;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    justify-content: space-evenly;
+}
+
+.searchbar {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.linearGrad {
+    background: linear-gradient(to right, #084539 50%, #dbf4ef);
+}
+
+.searchLogo {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.searchbar::placeholder {
+    font-size: 12px;
+}
+
+.btn {
+    color: #fff;
+    background: #129077;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 6px;
+}
+
+.bg-img {
+    background-image: url("building.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.home-page {
+    color: #fff;
+    padding: 90px 100px 650px;
+    background: linear-gradient(to right, rgba(8, 69, 57, 0.5) 50%, rgba(219, 244, 239, 0.5));
+}
+
+.h1-txt {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.btn-book {
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #129077;
+    padding: 10px 24px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.content-wid {
+    width: 500px;
+}
+
+.bookBtn-div {
+    margin-top: 40px;
+}
+
+.contactUsImg {
+    padding: 90px 100px 233px;
+}
+
+.logoBasis {
+    flex-basis: 32%;
+}
+
+.navlinksCont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-basis: 68%;
+}
+
+.item {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.item-image {
+    width: 500px;
+    height: 280px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.item-name {
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+.item-description {
+    padding: 0 10px;
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.item-results {
+    color: #fff;
+}
+
+div#searchResults {
+    width: 500px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
